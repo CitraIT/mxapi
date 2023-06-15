@@ -44,7 +44,8 @@ def main():
     if not os.path.exists("db.sqlite"):
         with app.app_context():
             db.create_all()
-    app.run(debug=True)
+    #app.run(debug=True)
+    app.run(debug=False)
 
 
 
