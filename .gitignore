@@ -1,0 +1,24 @@
+# Python-specific
+*.pyc
+__pycache__/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Flask-specific
+instance/
+
+# Development files
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
